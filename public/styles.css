@@ -7,19 +7,25 @@
 }
 
 #input {
-  font-size: 1.1rem;
-  padding: 0.3rem;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  width: 50%;
 }
 
 button {
   font-size: 1.1rem;
-  padding: 0.3rem;
+  padding: 0.3rem 0.5rem;
   margin-left: 5px;
 }
 
 #form {
   position: fixed;
-  bottom: 0;
+  bottom: 5px;
+  width: 100%;
+  left: 22%;
+}
+#input:focus {
+  outline: none;
 }
 
 #messages {
