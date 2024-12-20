@@ -9,7 +9,7 @@
   <body>
     <ul id="messages"></ul>
     <form id="form" action="">
-      <input id="input" autocomplete="off" size="25" /><button>Send</button>
+      <input id="input" autocomplete="off" size="50" /><button>Send</button>
     </form>
     <script src="/socket.io/socket.io.js"></script>
     <script>
@@ -30,6 +30,7 @@
         const item = document.createElement("li");
         item.textContent = msg;
         message.appendChild(item);
+        window.scrollTo(0, document.body.scrollHeight);
       });
     </script>
   </body>
